@@ -7,7 +7,19 @@
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
   </PropertyGroup>
   <ItemGroup>
-    <MauiXaml Update="NewPage1.xaml">
+    <MauiXaml Update="Resources\Pages\Horarios.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Resources\Pages\Mapa.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Resources\Pages\Paragens.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Resources\Pages\SelecionarPercurso.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Resources\Pages\Tarifas.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

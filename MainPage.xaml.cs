@@ -9,18 +9,38 @@ public partial class MainPage : ContentPage
 		InitializeComponent();
 	}
 
-	//private void OnCounterClicked(object sender, EventArgs e)
-	//{
-	//	count++;
+    private void Seta_Clicked(object sender,EventArgs e) {
+        Shell.Current.GoToAsync("seta");
+    }
 
-	//	if (count == 1)
-	//		CounterBtn.Text = $"Clicked {count} time";
-	//	else
-	//		CounterBtn.Text = $"Clicked {count} times";
+    private void Bus_Clicked(object sender,EventArgs e) {
+        Shell.Current.GoToAsync("bus");
+    }
 
-	//	Shell.Current.GoToAsync("about");
+    private void Euro_Clicked(object sender,EventArgs e) {
+        Shell.Current.GoToAsync("euro");
+    }
 
-	//	SemanticScreenReader.Announce(CounterBtn.Text);
-	//}
+    private void Sinais_Clicked(object sender,EventArgs e) {
+        Shell.Current.GoToAsync("sinais");
+    }
+
+    private void Mappoint_Clicked(object sender,EventArgs e) {
+        Shell.Current.GoToAsync("map");
+    }
+
+    //private void OnCounterClicked(object sender, EventArgs e)
+    //{
+    //	count++;
+
+    //	if (count == 1)
+    //		CounterBtn.Text = $"Clicked {count} time";
+    //	else
+    //		CounterBtn.Text = $"Clicked {count} times";
+
+    //	Shell.Current.GoToAsync("about");
+
+    //	SemanticScreenReader.Announce(CounterBtn.Text);
+    //}
 }
 

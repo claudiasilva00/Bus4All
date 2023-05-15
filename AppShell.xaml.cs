@@ -1,10 +1,15 @@
-﻿namespace Bus4All;
+﻿using Bus4All.Resources.Pages;
+namespace Bus4All;
 
 public partial class AppShell : Shell
 {
 	public AppShell()
 	{
 		InitializeComponent();
-        Routing.RegisterRoute("about",typeof(NewPage1));
+        Routing.RegisterRoute("seta",typeof(Horarios));
+        Routing.RegisterRoute("bus",typeof(Paragens));
+        Routing.RegisterRoute("sinais",typeof(SelecionarPercurso));
+        Routing.RegisterRoute("euro",typeof(Tarifas));
+        Routing.RegisterRoute("map",typeof(Mapa));
     }
 }
