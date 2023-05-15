@@ -6,6 +6,10 @@
     <ActiveDebugProfile>realme RMX3311 (Android 13.0 - API 33)</ActiveDebugProfile>
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(TargetPlatformIdentifier)'=='iOS'">
+    <RuntimeIdentifier>ios-arm64</RuntimeIdentifier>
+    <PlatformTarget>arm64</PlatformTarget>
+  </PropertyGroup>
   <ItemGroup>
     <MauiXaml Update="Resources\Pages\Horarios.xaml">
       <SubType>Designer</SubType>

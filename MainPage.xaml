@@ -17,23 +17,23 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <StackLayout Grid.Column="0" Grid.Row="1">
-            <ImageButton VerticalOptions="Start" Source="seta.png" HeightRequest="120" Clicked="Seta_Clicked"/>
+            <ImageButton VerticalOptions="Start" Source="seta.png" HeightRequest="120" Clicked="Seta_Clicked" SemanticProperties.Description="Linhas"/>
             <Label HorizontalOptions="Center" Text="Linhas" TextColor="Black" FontSize="20" />
         </StackLayout>
         <StackLayout Grid.Column="2" Grid.Row="1">
-            <ImageButton VerticalOptions="Start" Source="bus.webp" HeightRequest="120" Clicked="Bus_Clicked"/>
+            <ImageButton VerticalOptions="Start" Source="bus.webp" HeightRequest="120" Clicked="Bus_Clicked" SemanticProperties.Description="Paragens"/>
             <Label HorizontalOptions="Center" Text="Paragens" TextColor="Black" FontSize="20"/>
         </StackLayout>
         <StackLayout Grid.Column="1" Grid.Row="2">
-            <ImageButton VerticalOptions="Start" Source="sinais.png" HeightRequest="120" Clicked="Sinais_Clicked"/>
+            <ImageButton VerticalOptions="Start" Source="sinais.png" HeightRequest="120" Clicked="Sinais_Clicked" SemanticProperties.Description="Selecionar Percurso"/>
             <Label HorizontalOptions="Center" Text="Selecionar Percurso" TextColor="Black" FontSize="20"/>
         </StackLayout>
         <StackLayout Grid.Column="0" Grid.Row="3">
-            <ImageButton VerticalOptions="Start" Source="euro.png" HeightRequest="120" Clicked="Euro_Clicked"/>
+            <ImageButton VerticalOptions="Start" Source="euro.png" HeightRequest="120" Clicked="Euro_Clicked" SemanticProperties.Description="Tarifas"/>
             <Label HorizontalOptions="Center" Text="Tarifas" TextColor="Black" FontSize="20"/>
         </StackLayout>
         <StackLayout Grid.Column="2" Grid.Row="3">
-            <ImageButton VerticalOptions="Start" Source="mappoint.webp" HeightRequest="120" Clicked="Mappoint_Clicked"/>
+            <ImageButton VerticalOptions="Start" Source="mappoint.webp" HeightRequest="120" Clicked="Mappoint_Clicked" SemanticProperties.Description="Mapa"/>
             <Label HorizontalOptions="Center" Text="Mapa" TextColor="Black" FontSize="20"/>
         </StackLayout>
     </Grid>
