@@ -14,27 +14,32 @@
             <RowDefinition Height="50"/>
             <RowDefinition Height="160"/>
             <RowDefinition Height="160"/>
+            <RowDefinition Height="160"/>
+            <RowDefinition Height="80"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <StackLayout Grid.Column="0" Grid.Row="1">
-            <ImageButton VerticalOptions="Start" Source="seta.png" HeightRequest="120" Clicked="Seta_Clicked" SemanticProperties.Description="Linhas"/>
+            <ImageButton VerticalOptions="Start" Source="seta" HeightRequest="80" Clicked="Seta_Clicked" SemanticProperties.Description="Linhas"/>
             <Label HorizontalOptions="Center" Text="Linhas" TextColor="Black" FontSize="20" />
         </StackLayout>
         <StackLayout Grid.Column="2" Grid.Row="1">
-            <ImageButton VerticalOptions="Start" Source="bus.webp" HeightRequest="120" Clicked="Bus_Clicked" SemanticProperties.Description="Paragens"/>
+            <ImageButton VerticalOptions="Start" Source="bus" HeightRequest="120" Clicked="Bus_Clicked" SemanticProperties.Description="Paragens"/>
             <Label HorizontalOptions="Center" Text="Paragens" TextColor="Black" FontSize="20"/>
         </StackLayout>
         <StackLayout Grid.Column="1" Grid.Row="2">
-            <ImageButton VerticalOptions="Start" Source="sinais.png" HeightRequest="120" Clicked="Sinais_Clicked" SemanticProperties.Description="Selecionar Percurso"/>
+            <ImageButton VerticalOptions="Start" Source="sinais" HeightRequest="120" Clicked="Sinais_Clicked" SemanticProperties.Description="Selecionar Percurso"/>
             <Label HorizontalOptions="Center" Text="Selecionar Percurso" TextColor="Black" FontSize="20"/>
         </StackLayout>
         <StackLayout Grid.Column="0" Grid.Row="3">
-            <ImageButton VerticalOptions="Start" Source="euro.png" HeightRequest="120" Clicked="Euro_Clicked" SemanticProperties.Description="Tarifas"/>
+            <ImageButton VerticalOptions="Start" Source="euro" HeightRequest="80" Clicked="Euro_Clicked" SemanticProperties.Description="Tarifas"/>
             <Label HorizontalOptions="Center" Text="Tarifas" TextColor="Black" FontSize="20"/>
         </StackLayout>
         <StackLayout Grid.Column="2" Grid.Row="3">
-            <ImageButton VerticalOptions="Start" Source="mappoint.webp" HeightRequest="120" Clicked="Mappoint_Clicked" SemanticProperties.Description="Mapa"/>
+            <ImageButton VerticalOptions="Start" Source="mappoint" HeightRequest="120" Clicked="Mappoint_Clicked" SemanticProperties.Description="Mapa"/>
             <Label HorizontalOptions="Center" Text="Mapa" TextColor="Black" FontSize="20"/>
         </StackLayout>
+        <Rectangle Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="3" Fill="#AFC2CD" />
+        <ImageButton Grid.Column="0" Grid.Row="5" Source="estrela" HeightRequest="50" Clicked="Estrela_Clicked"/>
+        <ImageButton Grid.Column="2" Grid.Row="5" Source="bus4all" HeightRequest="50"/>
     </Grid>
 </ContentPage>

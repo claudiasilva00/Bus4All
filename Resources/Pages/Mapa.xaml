@@ -5,7 +5,7 @@
              Title="Mapa"
              Shell.BackgroundColor="#AFC2CD"
              BackgroundColor="White">
-    <VerticalStackLayout>
-        <ImageButton VerticalOptions="Start" Source="mapa"/>
-    </VerticalStackLayout>
+    <Grid>
+        <ImageButton VerticalOptions="Start" Source="mapa.jpg"/>
+    </Grid>
 </ContentPage>

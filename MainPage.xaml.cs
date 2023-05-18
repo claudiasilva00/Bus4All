@@ -29,6 +29,10 @@ public partial class MainPage : ContentPage
         Shell.Current.GoToAsync("map");
     }
 
+    private void Estrela_Clicked(object sender,EventArgs e) {
+
+    }
+
     //private void OnCounterClicked(object sender, EventArgs e)
     //{
     //	count++;
