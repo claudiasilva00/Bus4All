@@ -8,31 +8,90 @@
 
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="80"/>
             <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="60"/>
+            <ColumnDefinition Width="140"/>
+            <ColumnDefinition Width="140"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
+            
             <RowDefinition Height="30"/>
             <RowDefinition Height="90"/>
-            <RowDefinition Height="235"/>
-            <RowDefinition Height="180"/>
-            <RowDefinition Height="50"/>
-            <RowDefinition Height="80"/>
+            <RowDefinition Height="135"/>
+            <RowDefinition Height="135"/>
+            <RowDefinition Height="135"/>
+            <RowDefinition Height="135"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
 
-
-        <StackLayout Grid.Row="1">
+        
+        <StackLayout Grid.Row="1" Grid.Column="1">
             <Label HorizontalOptions="Center" Text="ETA" TextColor="Black" FontSize="30" FontAttributes="Bold" />
+        </StackLayout>
+        
+        <!-- 1 -->
+        <StackLayout Grid.Row="2" Grid.Column="1">
+            <Image Source="bus.png" HorizontalOptions="Start" HeightRequest="50"/>
         </StackLayout>
 
         <StackLayout Grid.Row="2" Grid.Column="2">
-            <Image Source="bus2.png" HeightRequest="30"/>
             <Label HorizontalOptions="Start" Text="1 Lordelo- UTAD" TextColor="Black" FontSize="18" />
+            <Label HorizontalOptions="Start" Text="1092" TextColor="#BFBEBE" FontSize="18" />
         </StackLayout>
-        <ImageButton VerticalOptions="Start" Source="bus.png"/>
+        
+        <StackLayout Grid.Row="2" Grid.Column="3">
+            <Label HorizontalOptions="Start" Text="  AAA        ZZZ" TextColor="Black" FontSize="18" />
+            <Label HorizontalOptions="Start" Text="  08:03   08:07" TextColor="BLACK" FontSize="18" FontAttributes="Bold" />
+        </StackLayout>
+        
+        <!-- 2 -->
+        <StackLayout Grid.Row="3" Grid.Column="1">
+            <Image Source="bus.png" HorizontalOptions="Start" HeightRequest="50"/>
+        </StackLayout>
+        
+        <StackLayout Grid.Row="3" Grid.Column="2">
+            <Label HorizontalOptions="Start" Text="2 UTAD- Lordelo" TextColor="Black" FontSize="18" />
+            <Label HorizontalOptions="Start" Text="1086" TextColor="#BFBEBE" FontSize="18" />
+        </StackLayout>
+
+        <StackLayout Grid.Row="3" Grid.Column="3">
+            <Label HorizontalOptions="Start" Text="  AAA        ZZZ" TextColor="Black" FontSize="18" />
+            <Label HorizontalOptions="Start" Text="  08:05   08:06" TextColor="BLACK" FontSize="18" FontAttributes="Bold" />
+        </StackLayout>
+        
+        <!-- 3 -->
+        <StackLayout Grid.Row="4" Grid.Column="1">
+            <Image Source="bus.png" HorizontalOptions="Start" HeightRequest="50"/>
+        </StackLayout>
+
+        <StackLayout Grid.Row="4" Grid.Column="2">
+            <Label HorizontalOptions="Start" Text="3 IEFP - FLORES" TextColor="Black" FontSize="18" />
+            <Label HorizontalOptions="Start" Text="1092" TextColor="#BFBEBE" FontSize="18" />
+        </StackLayout>
+
+        <StackLayout Grid.Row="4" Grid.Column="3">
+            <Label HorizontalOptions="Start" Text="  AAA        ZZZ" TextColor="Black" FontSize="18" />
+            <Label HorizontalOptions="Start" Text="  08:09   09:06" TextColor="BLACK" FontSize="18" FontAttributes="Bold" />
+        </StackLayout>
+        
+        <!-- 4 -->
+        <StackLayout Grid.Row="5" Grid.Column="1">
+            <Image Source="bus.png" HorizontalOptions="Start" HeightRequest="50"/>
+        </StackLayout>
+
+        <StackLayout Grid.Row="5" Grid.Column="2">
+            <Label HorizontalOptions="Start" Text="4 UTAD- Montezelos" TextColor="Black" FontSize="18" />
+            <Label HorizontalOptions="Start" Text="1092" TextColor="#BFBEBE" FontSize="18" />
+        </StackLayout>
+
+        <StackLayout Grid.Row="5" Grid.Column="3">
+            <Label HorizontalOptions="Start" Text="  AAA        ZZZ" TextColor="Black" FontSize="18" />
+            <Label HorizontalOptions="Start" Text="  10:05   11:06" TextColor="BLACK" FontSize="18" FontAttributes="Bold" />
+        </StackLayout>
+
+
     </Grid>
 
 </ContentPage>
