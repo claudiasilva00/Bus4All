@@ -22,8 +22,8 @@
             
             
             
-        <Entry Grid.Row="1" HorizontalOptions="Center" x:Name="pembarque" Placeholder="PARAGEM DE EMBARQUE " Text="{Binding MyTextt}" />
-        <Entry Grid.Row="3" HorizontalOptions="Center" x:Name="pdesembarque" Placeholder="PARAGEM DE DESEMBARQUE " Text="{Binding MyText}" />
+        <Entry Grid.Row="1" HorizontalOptions="Center" x:Name="pembarque" Placeholder="PARAGEM DE EMBARQUE " Text="{Binding MyTextt}" TextColor="Black" />
+        <Entry Grid.Row="3" HorizontalOptions="Center" x:Name="pdesembarque" Placeholder="PARAGEM DE DESEMBARQUE " Text="{Binding MyText}" TextColor="Black" />
         <Button Grid.Row="5" HorizontalOptions="CenterAndExpand" Text="CONFIRMAR" Clicked="Button_Clicked"/>
 
     </Grid>
