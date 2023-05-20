@@ -7,8 +7,6 @@
              BackgroundColor="White">
 
     <Grid>
-        
-        
         <ScrollView>
     <StackLayout>
         <Label   Text="1018 UTAD REITORIA" TextColor="Black" FontSize="24" />
