@@ -1,6 +1,4 @@
-
-
-namespace Bus4All.Resources.Pages;
+namespace Bus4All;
 
 public partial class Tarifas : ContentPage
 {

@@ -1,4 +1,4 @@
-﻿using Bus4All.Resources.Pages;
+﻿using Bus4All;
 namespace Bus4All;
 
 public partial class AppShell : Shell
