@@ -14,7 +14,7 @@ public partial class SelecionarPercurso : ContentPage
         string embarqueText = pembarque.Text;
         string desembarqueText = pdesembarque.Text;
 
-        string message = $"Embarque: {embarqueText}\nDesembarque: {desembarqueText}";
+        string message = $"Embarque: {embarqueText}\n\nDesembarque: {desembarqueText}";
 
         DisplayAlert("PERCURSO SELECIONADO", message, "CONFIRMAR", "CANCELAR");
 
