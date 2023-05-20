@@ -20,11 +20,14 @@
             <RowDefinition Height="30"/>
             <RowDefinition Height="90"/>
             <RowDefinition Height="55"/>
-            <RowDefinition Height="95"/>
-            <RowDefinition Height="135"/>
-            <RowDefinition Height="135"/>
-            <RowDefinition Height="135"/>
-            <RowDefinition Height="135"/>
+            <RowDefinition Height="90"/>
+            <RowDefinition Height="55"/>
+            <RowDefinition Height="90"/>
+            <RowDefinition Height="55"/>
+            <RowDefinition Height="90"/>
+            <RowDefinition Height="80"/>
+            
+         
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
@@ -72,11 +75,56 @@
             <Label HorizontalOptions="Start" Text="  08:05   08:06" TextColor="BLACK" FontSize="18" FontAttributes="Bold" />
         </StackLayout>
 
-        <StackLayout Grid.Row="4" Grid.Column="2">
+        <StackLayout Grid.Row="5" Grid.Column="2">
             <Image Source="bell.png" HeightRequest="20" HorizontalOptions="Start"></Image>
         </StackLayout>
 
-        <StackLayout Grid.Row="3" Grid.Column="4">
+        <StackLayout Grid.Row="4" Grid.Column="4">
+            <Image Source="seta2.png" HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+        <!-- 3 -->
+        <StackLayout Grid.Row="6" Grid.Column="1">
+            <Image Source="bus.png" HorizontalOptions="Start" HeightRequest="50"/>
+        </StackLayout>
+
+        <StackLayout Grid.Row="6" Grid.Column="2">
+            <Label HorizontalOptions="Start" Text="3 IEFP - FLORES" TextColor="Black" FontSize="18" />
+            <Label HorizontalOptions="Start" Text="1092" TextColor="#BFBEBE" FontSize="18" />
+        </StackLayout>
+
+        <StackLayout Grid.Row="6" Grid.Column="3">
+            <Label HorizontalOptions="Start" Text="  AAA        ZZZ" TextColor="Black" FontSize="18" />
+            <Label HorizontalOptions="Start" Text="  08:09   09:06" TextColor="BLACK" FontSize="18" FontAttributes="Bold" />
+        </StackLayout>
+        
+        <StackLayout Grid.Row="7" Grid.Column="2">
+            <Image Source="bell.png" HeightRequest="20" HorizontalOptions="Start"></Image>
+        </StackLayout>
+
+        <StackLayout Grid.Row="6" Grid.Column="4">
+            <Image Source="seta2.png" HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+
+        <!-- 4 -->
+        <StackLayout Grid.Row="8" Grid.Column="1">
+            <Image Source="bus.png" HorizontalOptions="Start" HeightRequest="50"/>
+        </StackLayout>
+
+        <StackLayout Grid.Row="8" Grid.Column="2">
+            <Label HorizontalOptions="Start" Text="4 UTAD- Montezelos" TextColor="Black" FontSize="18" />
+            <Label HorizontalOptions="Start" Text="1092" TextColor="#BFBEBE" FontSize="18" />
+        </StackLayout>
+
+        <StackLayout Grid.Row="8" Grid.Column="3">
+            <Label HorizontalOptions="Start" Text="  AAA        ZZZ" TextColor="Black" FontSize="18" />
+            <Label HorizontalOptions="Start" Text="  10:05   11:06" TextColor="BLACK" FontSize="18" FontAttributes="Bold" />
+        </StackLayout>
+
+        <StackLayout Grid.Row="9" Grid.Column="2">
+            <Image Source="bell.png" HeightRequest="20" HorizontalOptions="Start"></Image>
+        </StackLayout>
+
+        <StackLayout Grid.Row="8" Grid.Column="4">
             <Image Source="seta2.png" HorizontalOptions="CenterAndExpand" />
         </StackLayout>
 
