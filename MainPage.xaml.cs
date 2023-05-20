@@ -1,4 +1,7 @@
-﻿namespace Bus4All;
+﻿using Bus4All.Resources.Pages;
+using Microsoft.Maui.Controls;
+using Microsoft.Maui.Controls.Xaml;
+namespace Bus4All;
 
 public partial class MainPage : ContentPage
 {
@@ -14,7 +17,7 @@ public partial class MainPage : ContentPage
     }
 
     private void Bus_Clicked(object sender,EventArgs e) {
-        Shell.Current.GoToAsync("bus");
+         Navigation.PushAsync(new Paragens());
     }
 
     private void Euro_Clicked(object sender,EventArgs e) {

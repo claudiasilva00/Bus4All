@@ -5,7 +5,8 @@
              Title="Horários"
              Shell.BackgroundColor="#AFC2CD"
              BackgroundColor="White">
-    <VerticalStackLayout>
-        <ImageButton Source="mapa.jpg"/>
-    </VerticalStackLayout>
+
+        <ImageButton VerticalOptions="Start" Source="bus.jpg"/>
+        
+   
 </ContentPage>

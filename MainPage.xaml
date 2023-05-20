@@ -24,7 +24,7 @@
             <Label  HorizontalOptions="Center" Text="Linhas" TextColor="Black" FontSize="20" />
         </StackLayout>
         <StackLayout Grid.Column="2" Grid.Row="1">
-            <ImageButton VerticalOptions="Start" Source="bus"  Clicked="Bus_Clicked" HeightRequest="160" SemanticProperties.Description="Paragens"/>
+            <ImageButton VerticalOptions="Start" Source="bus"  Clicked="Bus_Clicked" HeightRequest="160" SemanticProperties.Description="Bus"/>
             <Label HorizontalOptions="Center" Text="Paragens" TextColor="Black" FontSize="20"/>
         </StackLayout>
         <StackLayout Grid.Column="1" Grid.Row="2">

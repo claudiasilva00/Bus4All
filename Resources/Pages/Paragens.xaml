@@ -5,10 +5,60 @@
              Title="Paragens"
              Shell.BackgroundColor="#AFC2CD"
              BackgroundColor="White">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+
+
+    <ScrollView>
+    <StackLayout>
+        <Label   Text="1018 UTAD REITORIA" TextColor="Black" FontSize="24" />
+        <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
+        <Label   Text="1021 UTAD ENGENHARIAS" TextColor="Black" FontSize="24" />
+        <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
+        <Label   Text="1019 UTAD PEDAGOGICO" TextColor="Black" FontSize="24" />
+        <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
+        <Label   Text="1020 UTAD LIVRARIA" TextColor="Black" FontSize="24" />
+        <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
+        <Label   Text="1188 PRAÇA GALIZA" TextColor="Black" FontSize="24" />
+        <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
+        <Label   Text="1102 AV.UNIVERSIDADE" TextColor="Black" FontSize="24" />
+        <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
+        <Label   Text="1211 CARREIRA LONGA" TextColor="Black" FontSize="24" />
+        <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
+        <Label   Text="1087 R.AUGUSTO CÉSAR" TextColor="Black" FontSize="24" />
+        <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
+        <Label   Text="1069 R.MANUEL SANTOS GOMES" TextColor="Black" FontSize="24" />
+        <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
+        <Label   Text="1073 ESCOLAS ARAUCÁRIA" TextColor="Black" FontSize="24" />
+        <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
+        <Label   Text="1093 IGREJA STº ANTÓNIO" TextColor="Black" FontSize="24" />
+        <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
+        <Label   Text="1099 C.SAUDE MATEUS" TextColor="Black" FontSize="24" />
+        <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
+        <Label   Text="1070 R.GASPAR SAMEIRO (2)" TextColor="Black" FontSize="24" />
+        <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
+        <Label   Text="1071 R.GASPAR SAMEIRO (1)" TextColor="Black" FontSize="24" />
+        <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
+        <Label   Text="1072 MATEUS" TextColor="Black" FontSize="24" />
+        <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
+        <Label   Text="1074  Bº DO ALEM" TextColor="Black" FontSize="24" />
+        <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
+        <Label   Text="1334 ABAMBRES" TextColor="Black" FontSize="24" />
+        <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
+        <Label   Text="1095 COOPERATIVA" TextColor="Black" FontSize="24" />
+        <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
+        <Label   Text="1092 LUGAR DO BOQUE" TextColor="Black" FontSize="24" />
+        <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
+        <Label   Text="1100 Bº STªA MARIA" TextColor="Black" FontSize="24" />
+        <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
+        <Label   Text="1084 RIO CORGO" TextColor="Black" FontSize="24" />
+        <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
+        <Label   Text="1094 CURVA DA TIMPEIRA" TextColor="Black" FontSize="24" />
+        <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
+        <Label   Text="1170 PR. 25 DE ABRIL" TextColor="Black" FontSize="24" />
+        <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
+        <Label   Text="1097 CEMITÉRIO" TextColor="Black" FontSize="24" />
+        <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
+
+    </StackLayout>
+    </ScrollView>
+
 </ContentPage>
