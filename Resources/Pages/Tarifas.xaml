@@ -11,8 +11,8 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="20"/>
             <ColumnDefinition Width="190"/>
-            <ColumnDefinition Width="190"/>
-            <ColumnDefinition Width="130"/>
+            <ColumnDefinition Width="160"/>
+            <ColumnDefinition Width="110"/>
             <ColumnDefinition Width="40"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
@@ -36,18 +36,18 @@
         <Label Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="1" Grid.RowSpan="2" Text="Bilhetes" FontSize="30" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Start" VerticalOptions="Center"/>
         <!--1-->
         <Label Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="1" Grid.RowSpan="2" Text="Bilhete de Bordo" FontSize="18"  TextColor="Black" HorizontalOptions="Start" VerticalOptions="Center"/>
-        <Label Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="2" Text="ver preços" FontSize="16" FontAttributes="Bold"  TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Label Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="2" Text="Preços" FontSize="16" FontAttributes="Bold"  TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"/>
         <ImageButton Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" Grid.RowSpan="2" Source="seta2.png" HeightRequest="20"  />
 
        
         <!--2-->
         <Label Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Grid.RowSpan="1" Text="Bilhete de Bordo flexivel" FontSize="18"  TextColor="Black" HorizontalOptions="Start" VerticalOptions="Center"/>
-        <Label Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="1" Text="ver preços" FontSize="16" FontAttributes="Bold"  TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Label Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="1" Text="Preços" FontSize="16" FontAttributes="Bold"  TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"/>
         <ImageButton Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" Grid.RowSpan="1" Source="seta2.png" HeightRequest="20" />
 
         <!--3-->
         <Label Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="1" Grid.RowSpan="1" Text="Meio Bilhete" FontSize="18"  TextColor="Black" HorizontalOptions="Start" VerticalOptions="Center"/>
-        <Label Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="1" Text="ver preços" FontSize="16" FontAttributes="Bold"  TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Label Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="1" Text="Preços" FontSize="16" FontAttributes="Bold"  TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"/>
         <ImageButton Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" Grid.RowSpan="1" Source="seta2.png" HeightRequest="20" />
 
         <!--Passes mensais-->
@@ -55,27 +55,27 @@
 
         <!--4-->
         <Label Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="1" Grid.RowSpan="2" Text="Social" FontSize="18"  TextColor="Black" HorizontalOptions="Start" VerticalOptions="Center"/>
-        <Label Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="2" Text="ver preços" FontSize="16" FontAttributes="Bold"  TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Label Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="2" Text="Preços" FontSize="16" FontAttributes="Bold"  TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"/>
         <ImageButton Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2" Grid.RowSpan="2" Source="seta2.png" HeightRequest="20" />
         
         <!--5-->
         <Label Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="1" Grid.RowSpan="1" Text="Estudantes-A" FontSize="18"  TextColor="Black" HorizontalOptions="Start" VerticalOptions="Center"/>
-        <Label Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="1" Text="ver preços" FontSize="16" FontAttributes="Bold"  TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Label Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="1" Text="Preços" FontSize="16" FontAttributes="Bold"  TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"/>
         <ImageButton Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="2" Grid.RowSpan="1" Source="seta2.png" HeightRequest="20" />
 
         <!--5-->
         <Label Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="1" Grid.RowSpan="1" Text="Estudantes-B" FontSize="18"  TextColor="Black" HorizontalOptions="Start" VerticalOptions="Center"/>
-        <Label Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="1" Text="ver preços" FontSize="16" FontAttributes="Bold"  TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Label Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="1" Text="Preços" FontSize="16" FontAttributes="Bold"  TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"/>
         <ImageButton Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="2" Grid.RowSpan="1" Source="seta2.png" HeightRequest="20" />
 
         <!--6-->
         <Label Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="1" Grid.RowSpan="1" Text="Sub-23-A" FontSize="18"  TextColor="Black" HorizontalOptions="Start" VerticalOptions="Center"/>
-        <Label Grid.Row="7" Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="1" Text="ver preços" FontSize="16" FontAttributes="Bold"  TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Label Grid.Row="7" Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="1" Text="Preços" FontSize="16" FontAttributes="Bold"  TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"/>
         <ImageButton Grid.Row="7" Grid.Column="2" Grid.ColumnSpan="2" Grid.RowSpan="1" Source="seta2.png" HeightRequest="20" />
       
         <!--7-->
         <Label Grid.Row="8" Grid.Column="1" Grid.ColumnSpan="1" Grid.RowSpan="1" Text="Sub-23-B" FontSize="18"  TextColor="Black" HorizontalOptions="Start" VerticalOptions="Center"/>
-        <Label Grid.Row="8" Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="1" Text="ver preços" FontSize="16" FontAttributes="Bold"  TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Label Grid.Row="8" Grid.Column="2" Grid.ColumnSpan="1" Grid.RowSpan="1" Text="Preços" FontSize="16" FontAttributes="Bold"  TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"/>
         <ImageButton Grid.Row="8" Grid.Column="2" Grid.ColumnSpan="2" Grid.RowSpan="1" Source="seta2.png" HeightRequest="20" />
 
 
