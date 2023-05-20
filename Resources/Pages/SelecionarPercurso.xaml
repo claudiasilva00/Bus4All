@@ -5,10 +5,30 @@
              Title="SelecionarPercurso"
              Shell.BackgroundColor="#AFC2CD"
              BackgroundColor="White">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+
+
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+            
+            
+            
+        <Entry Grid.Row="1" HorizontalOptions="Center" x:Name="pembarque" Placeholder="PARAGEM DE EMBARQUE " Text="{Binding MyTextt}" />
+        <Entry Grid.Row="3" HorizontalOptions="Center" x:Name="pdesembarque" Placeholder="PARAGEM DE DESEMBARQUE " Text="{Binding MyText}" />
+        <Button Grid.Row="5" HorizontalOptions="CenterAndExpand" Text="CONFIRMAR" Clicked="Button_Clicked"/>
+
+    </Grid>
+
+
+
+
 </ContentPage>

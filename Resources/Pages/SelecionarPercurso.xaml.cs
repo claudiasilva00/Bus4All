@@ -1,3 +1,5 @@
+
+
 namespace Bus4All;
 
 public partial class SelecionarPercurso : ContentPage
@@ -6,4 +8,9 @@ public partial class SelecionarPercurso : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void Button_Clicked(object sender, EventArgs e)
+    {
+		DisplayAlert("Percurso Selecionado","", "Confirmar");
+    }
 }
