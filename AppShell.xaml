@@ -5,14 +5,42 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Bus4All"
     Shell.TabBarBackgroundColor="#AFC2CD"
-    Shell.TabBarUnselectedColor="Black">
+    Shell.TabBarUnselectedColor="Black"
+    Shell.PresentationMode="Animated"
+    >
+    <Shell.Resources>
+        <ResourceDictionary>
+            <Style x:Key="BaseStyle" TargetType="Element">
+                <Setter Property="Shell.BackgroundColor" Value="#AFC2CD" />
+                <Setter Property="Shell.ForegroundColor" Value="Black" />
+                <Setter Property="Shell.TitleColor" Value="Black" />
+                <Setter Property="Shell.DisabledColor" Value="#B4FFFFFF" />
+                <Setter Property="Shell.UnselectedColor" Value="#95FFFFFF" />
+                <Setter Property="Shell.TabBarBackgroundColor" Value="#AFC2CD" />
+                <Setter Property="Shell.TabBarForegroundColor" Value="Black" />
+                <Setter Property="Shell.TabBarUnselectedColor" Value="White" />
+                <Setter Property="Shell.TabBarTitleColor" Value="Black" />
+            </Style>
+            <Style TargetType="ShellItem" BasedOn="{StaticResource BaseStyle}" />
+            <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
+        </ResourceDictionary>
+    </Shell.Resources>
     <TabBar>
         <Tab Title="Favoritos" Icon="estrela">
-            <ShellContent ContentTemplate="{DataTemplate local:MainPage}"/>
+            <ShellContent
+                Appearing="ShellContent_Appearing"
+                Title="Favoritos"
+                ContentTemplate="{DataTemplate local:MainPage}"
+                Route="MainPage"
+            />
         </Tab>
         <Tab Title="Bus4All" Icon="bus">
-            <ShellContent ContentTemplate="{DataTemplate local:MainPage}"/>
+            <ShellContent 
+                Appearing="ShellContent_Appearing"
+                Title="Bus4All"
+                ContentTemplate="{DataTemplate local:MainPage}"
+                Route="MainPage"
+            />
         </Tab>
     </TabBar>
 </Shell>
-
