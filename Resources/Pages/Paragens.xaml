@@ -7,14 +7,10 @@
              BackgroundColor="White">
 
     <Grid>
-
-        <Grid.RowDefinitions>
-            <RowDefinition Height="80"/>
-            
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
+        
+        
         <ScrollView>
-            <StackLayout  Grid.Row="1">
+    <StackLayout>
         <Label   Text="1018 UTAD REITORIA" TextColor="Black" FontSize="24" />
         <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
         <Label   Text="1021 UTAD ENGENHARIAS" TextColor="Black" FontSize="24" />
