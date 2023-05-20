@@ -1,4 +1,4 @@
-﻿using Bus4All.Resources.Pages;
+﻿using Bus4All;
 using Microsoft.Maui.Controls;
 using Microsoft.Maui.Controls.Xaml;
 namespace Bus4All;

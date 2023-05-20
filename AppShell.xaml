@@ -4,11 +4,15 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Bus4All"
-    Shell.FlyoutBehavior="Disabled">
-    
-    <ShellContent
-        Title="Bus4All"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-
+    Shell.TabBarBackgroundColor="#AFC2CD"
+    Shell.TabBarUnselectedColor="Black">
+    <TabBar>
+        <Tab Title="Favoritos" Icon="estrela">
+            <ShellContent ContentTemplate="{DataTemplate local:MainPage}"/>
+        </Tab>
+        <Tab Title="Bus4All" Icon="bus">
+            <ShellContent ContentTemplate="{DataTemplate local:MainPage}"/>
+        </Tab>
+    </TabBar>
 </Shell>
+

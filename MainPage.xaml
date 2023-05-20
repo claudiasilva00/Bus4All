@@ -2,7 +2,6 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Bus4All.MainPage"
-             Shell.BackgroundColor="#AFC2CD"
              BackgroundColor="White">
     <Grid>
         <Grid.ColumnDefinitions>
@@ -37,8 +36,5 @@
             <ImageButton VerticalOptions="Start" Source="mappoint" Clicked="Mappoint_Clicked" HeightRequest="160" SemanticProperties.Description="Mapa"/>
             <Label HorizontalOptions="Center" Text="Mapa" TextColor="Black" FontSize="20"/>
         </StackLayout>
-        <Rectangle Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="3" Grid.RowSpan="2" Fill="#AFC2CD" />
-        <ImageButton Grid.Column="0" Grid.Row="3" VerticalOptions="Center" Source="estrela" Clicked="Estrela_Clicked"/>
-        <ImageButton Grid.Column="2" Grid.Row="3" VerticalOptions="Center" Source="bus4all"/>
     </Grid>
 </ContentPage>
