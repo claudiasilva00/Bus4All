@@ -6,23 +6,36 @@
              Shell.BackgroundColor="#AFC2CD"
              BackgroundColor="White">
 
-    
+
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="120"/>
-            <ColumnDefinition Width="120"/>
+            <ColumnDefinition Width="190"/>
+            <ColumnDefinition Width="190"/>
+            <ColumnDefinition Width="130"/>
+            <ColumnDefinition Width="40"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="0"/>
-            <RowDefinition Height="200"/>
-            <RowDefinition Height="235"/>
-            <RowDefinition Height="180"/>
-            <RowDefinition Height="50"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="90"/>
+            <RowDefinition Height="90"/>
+            <RowDefinition Height="90"/>
+            <RowDefinition Height="55"/>
+            <RowDefinition Height="90"/>
+            <RowDefinition Height="55"/>
+            <RowDefinition Height="90"/>
             <RowDefinition Height="80"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        
-    </Grid>
 
+        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="1" Grid.RowSpan="2" Text="Bilhetes" FontSize="30" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="1" Grid.RowSpan="2" Text="Bilhete de Bordo" FontSize="20"  TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Label Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="1" Grid.RowSpan="2" Text="ver preços" FontSize="16" FontAttributes="Bold"  TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"/>
+        
+        
+        <ImageButton Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" Grid.RowSpan="2" Source="seta2.png" HeightRequest="20" /> 
+
+
+
+    </Grid>
 </ContentPage>
