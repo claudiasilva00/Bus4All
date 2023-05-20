@@ -6,9 +6,15 @@
              Shell.BackgroundColor="#AFC2CD"
              BackgroundColor="White">
 
+    <Grid>
 
-    <ScrollView>
-    <StackLayout>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <ScrollView>
+            <StackLayout  Grid.Row="1">
         <Label   Text="1018 UTAD REITORIA" TextColor="Black" FontSize="24" />
         <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
         <Label   Text="1021 UTAD ENGENHARIAS" TextColor="Black" FontSize="24" />
@@ -60,5 +66,5 @@
 
     </StackLayout>
     </ScrollView>
-
+     </Grid>
 </ContentPage>

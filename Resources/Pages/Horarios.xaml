@@ -6,7 +6,33 @@
              Shell.BackgroundColor="#AFC2CD"
              BackgroundColor="White">
 
-        <ImageButton VerticalOptions="Start" Source="bus.jpg"/>
-        
-   
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="90"/>
+            <RowDefinition Height="235"/>
+            <RowDefinition Height="180"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+
+        <StackLayout Grid.Row="1">
+            <Label HorizontalOptions="Center" Text="ETA" TextColor="Black" FontSize="30" FontAttributes="Bold" />
+        </StackLayout>
+
+        <StackLayout Grid.Row="2" Grid.Column="2">
+            <Image Source="bus2.png" HeightRequest="30"/>
+            <Label HorizontalOptions="Start" Text="1 Lordelo- UTAD" TextColor="Black" FontSize="18" />
+        </StackLayout>
+        <ImageButton VerticalOptions="Start" Source="bus.png"/>
+    </Grid>
+
 </ContentPage>
