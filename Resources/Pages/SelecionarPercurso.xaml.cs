@@ -11,6 +11,6 @@ public partial class SelecionarPercurso : ContentPage
 
     private void Button_Clicked(object sender, EventArgs e)
     {
-		DisplayAlert("Percurso Selecionado", "You have been alerted", "OK");
+		DisplayAlert("Percurso Selecionado","", "Confirmar");
     }
 }
