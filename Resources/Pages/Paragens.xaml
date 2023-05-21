@@ -13,7 +13,7 @@
         <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
         <Label   Text="1021 UTAD ENGENHARIAS" TextColor="Black" FontSize="24" />
         <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
-        <Label   Text="1019 UTAD PEDAGOGICO" TextColor="Black" FontSize="24" />
+        <Label   Text="1019 UTAD PEDAGÓGICO" TextColor="Black" FontSize="24" />
         <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
         <Label   Text="1020 UTAD LIVRARIA" TextColor="Black" FontSize="24" />
         <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
@@ -51,7 +51,7 @@
         <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
         <Label   Text="1084 RIO CORGO" TextColor="Black" FontSize="24" />
         <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
-        <Label   Text="1094 CURVA DA TIMPEIRA" TextColor="Black" FontSize="24" />
+        <Label   Text="1094 CURVA DA Timpeira" TextColor="Black" FontSize="24" />
         <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>
         <Label   Text="1170 PR. 25 DE ABRIL" TextColor="Black" FontSize="24" />
         <BoxView Color="Black" HeightRequest="2" HorizontalOptions="FillAndExpand"/>

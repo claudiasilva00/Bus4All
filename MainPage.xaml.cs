@@ -33,19 +33,5 @@ public partial class MainPage : ContentPage
     private void Mappoint_Clicked(object sender,EventArgs e) {
         Shell.Current.GoToAsync("map");
     }
-
-    //private void OnCounterClicked(object sender, EventArgs e)
-    //{
-    //	count++;
-
-    //	if (count == 1)
-    //		CounterBtn.Text = $"Clicked {count} time";
-    //	else
-    //		CounterBtn.Text = $"Clicked {count} times";
-
-    //	Shell.Current.GoToAsync("about");
-
-    //	SemanticScreenReader.Announce(CounterBtn.Text);
-    //}
 }
 
