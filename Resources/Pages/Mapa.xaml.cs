@@ -11,13 +11,13 @@ public partial class Mapa : ContentPage
     private async void ImageButton_Clicked(object sender,EventArgs e) {
         if(!x) {
             DisplayAlert("Alerta","O seu Autocarro encontra-se a 2km de si","OK");
-            await Task.Delay(2500);
+            await Task.Delay(2000);
             await Vibrates(1000);
             await Vibrates(1000);
         }
         if(x) {
             DisplayAlert("Alerta","O seu Autocarro encontra-se a 300 m de si","OK");
-            await Task.Delay(2500);
+            await Task.Delay(2000);
             await Vibrates(250);
             await Vibrates(250);
             await Vibrates(250);
