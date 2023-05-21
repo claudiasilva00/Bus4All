@@ -40,10 +40,10 @@
                 Route="MainPage"
             />
         </Tab>
-        <Tab Title="Perfil" Icon="perfil">
-            <ShellContent x:Name="perfil"
+        <Tab Title="Definições" Icon="definições">
+            <ShellContent x:Name="Definições"
                 Appearing="ShellContent_Appearing"
-                Title="Perfil"
+                Title="Definições"
                 ContentTemplate="{DataTemplate local:MainPage}"
                 Route="MainPage"
             />
