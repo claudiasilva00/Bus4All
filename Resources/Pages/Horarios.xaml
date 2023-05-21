@@ -43,7 +43,7 @@
         </StackLayout>
 
         <StackLayout Grid.Row="2" Grid.Column="2">
-            <Label HorizontalOptions="Start" Text="1 Lordelo- UTAD" TextColor="Black" FontSize="18" SemanticProperties.Description="Linha 1 partida em Lordelo ás 08:03h com Chegada em UTAD ás 08:07" />
+            <Label HorizontalOptions="Start" Text="1 Lordelo- UTAD" TextColor="Black" FontSize="18" SemanticProperties.Description="Linha 1 partida em Lordelo ás 08:03h com Chegada em UTAD ás 08:07"  />
             <Label HorizontalOptions="Start" Text="1092" TextColor="#BFBEBE" FontSize="18" />
         </StackLayout>
         
@@ -55,7 +55,7 @@
         <!-- BOTOES-->
         <!-- BOTOES-->
         <ImageButton Grid.Row="2" Grid.Column="1" Grid.RowSpan="2" Source="bell.png" HeightRequest="20" HorizontalOptions="Start" SemanticProperties.Description="Ligar alertas"/>
-        <ImageButton  Grid.Row="2" Grid.Column="4" Source="seta2.png" HorizontalOptions="CenterAndExpand" SemanticProperties.Description="Selecione o seu percurso e siga a Linha 1 do Autocarro no mapa"/>
+        <ImageButton  Grid.Row="2" Grid.Column="4" Source="seta2.png" HorizontalOptions="CenterAndExpand" SemanticProperties.Description="Selecione o seu percurso e siga a Linha 1 do Autocarro no mapa" Clicked="ImageButton_Clicked"/>
        
         
         
@@ -78,7 +78,7 @@
         <!-- BOTOES-->
         <!-- BOTOES-->
         <ImageButton Grid.Row="4" Grid.RowSpan="2" Grid.Column="1" Source="bell.png" HeightRequest="20" HorizontalOptions="Start" SemanticProperties.Description="Ligar alertas"/>
-        <ImageButton Grid.Row="4" Grid.Column="4" Source="seta2.png" HorizontalOptions="CenterAndExpand" SemanticProperties.Description="Selecione o seu percurso e siga a Linha 1 do Autocarro no mapa" />
+        <ImageButton Grid.Row="4" Grid.Column="4" Source="seta2.png" HorizontalOptions="CenterAndExpand" SemanticProperties.Description="Selecione o seu percurso e siga a Linha 1 do Autocarro no mapa" Clicked="ImageButton_Clicked" />
        
            
         <!-- 3 -->
@@ -99,7 +99,7 @@
         <!-- BOTOES-->
         <!-- BOTOES-->
         <ImageButton Grid.Row="6" Grid.Column="1" Grid.RowSpan="2" Source="bell.png" HeightRequest="20" HorizontalOptions="Start" SemanticProperties.Description="Ligar alertas"/>
-        <ImageButton Grid.Row="6" Grid.Column="4" Source="seta2.png" SemanticProperties.Description="Selecione o seu percurso e siga a Linha 3 do Autocarro no mapa"/>
+        <ImageButton Grid.Row="6" Grid.Column="4" Source="seta2.png" SemanticProperties.Description="Selecione o seu percurso e siga a Linha 3 do Autocarro no mapa" Clicked="ImageButton_Clicked"/>
       
 
           
@@ -122,7 +122,7 @@
         <!-- BOTOES-->
         <!-- BOTOES-->
         <ImageButton  Grid.Row="8" Grid.RowSpan="2" Grid.Column="1" Source="bell.png" HeightRequest="20" HorizontalOptions="Start" SemanticProperties.Description="Ligar alertas"/>
-        <ImageButton Grid.Row="7" Grid.RowSpan="3" Grid.Column="4" Source="seta2.png" SemanticProperties.Description="Selecione o seu percurso e siga a Linha 4 do Autocarro no mapa" />
+        <ImageButton Grid.Row="7" Grid.RowSpan="3" Grid.Column="4" Source="seta2.png" SemanticProperties.Description="Selecione o seu percurso e siga a Linha 4 do Autocarro no mapa" Clicked="ImageButton_Clicked" />
         
 
 
