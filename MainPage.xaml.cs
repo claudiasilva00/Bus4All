@@ -27,7 +27,7 @@ public partial class MainPage : ContentPage
     }
 
     private async void Sinais_Clicked(object sender,EventArgs e) {
-        await Shell.Current.GoToAsync("sinais");
+        await Shell.Current.GoToAsync("selec");
     }
 
     private async void Mappoint_Clicked(object sender,EventArgs e) {

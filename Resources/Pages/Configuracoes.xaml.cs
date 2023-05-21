@@ -5,7 +5,7 @@ public partial class Configuracoes : ContentPage
 	public Configuracoes()
 	{
 		InitializeComponent();
-	}
+    }
     private void Switch_Toggled(object sender, ToggledEventArgs e)
     { Switch switchControl = (Switch)sender;
         bool isOn = switchControl.IsToggled;

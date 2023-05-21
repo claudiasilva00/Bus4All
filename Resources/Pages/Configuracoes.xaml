@@ -13,7 +13,6 @@
             <ColumnDefinition Width="90"/>
             <ColumnDefinition Width="90"/>
             <ColumnDefinition Width="90"/>
-           
             <ColumnDefinition Width="40"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
@@ -54,19 +53,8 @@
         <!--Filtros-->
         <ImageButton Grid.Row="3" Grid.Column="4" Grid.RowSpan="1" HeightRequest="40" Source="seta2.png" />
         <!--Haptic-->
-        <Switch Grid.Row="1" Grid.Column="4" Grid.RowSpan="3" x:Name="switchButton" Toggled="Switch_Toggled" ThumbColor="Black" OnColor="DarkGray" WidthRequest="80" HeightRequest="40"  />
+        <Switch Grid.Row="1" Grid.Column="4" Grid.RowSpan="3" x:Name="switchButton" Toggled="Switch_Toggled" ThumbColor="#0CC05A" OnColor="DarkGray" WidthRequest="80" HeightRequest="40" IsToggled="True" />
         <!--Voice-->
-        <Switch Grid.Row="0" Grid.Column="4" Grid.RowSpan="2" x:Name="switchButtonn" Toggled="switchButtonn_Toggled" ThumbColor="Black" OnColor="DarkGrey" WidthRequest="80" HeightRequest="40"  />
-
-
-
-
-
-
+        <Switch Grid.Row="0" Grid.Column="4" Grid.RowSpan="2" x:Name="switchButtonn" Toggled="switchButtonn_Toggled" ThumbColor="#0CC05A" OnColor="DarkGray" WidthRequest="80" HeightRequest="40"  IsToggled="True"/>
     </Grid>
-
-
-
-
-
 </ContentPage>

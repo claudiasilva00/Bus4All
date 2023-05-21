@@ -30,5 +30,8 @@
     <MauiXaml Update="Resources\Pages\Tarifas.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Resources\Pages\Selecionarfav.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
   </ItemGroup>
 </Project>

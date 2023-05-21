@@ -34,10 +34,10 @@
         </Tab>
         <Tab Title="Favoritos" Icon="estrela" >
                 <ShellContent x:Name="fav"
-                Appearing="ShellContent_Appearing"
+                Appearing="set_fav"
                 Title="Favoritos"
-                ContentTemplate="{DataTemplate local:MainPage}"
-                Route="MainPage"
+                ContentTemplate="{DataTemplate local:Selecionarfav}"
+                Route="fav"
             />
         </Tab>
         <Tab Title="Definições" Icon="gear">
@@ -45,7 +45,7 @@
                 Appearing="ShellContent_Appearing"
                 Title="Definições"
                 ContentTemplate="{DataTemplate local:Configuracoes}"
-                Route="Config"
+                Route="config"
             />
         </Tab>
     </TabBar>

@@ -2,13 +2,13 @@
 
 namespace Bus4All;
 
-public partial class SelecionarPercurso : ContentPage
+public partial class Selecionarfav : ContentPage
 {
     private List<string> paragemList;
 
-    public bool fav;
+    public bool fav= true;
 
-    public SelecionarPercurso()
+    public Selecionarfav()
 	{
 		InitializeComponent();
 
