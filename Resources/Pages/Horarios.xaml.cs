@@ -7,8 +7,9 @@ public partial class Horarios : ContentPage
 		InitializeComponent();
 	}
 
-    private void ImageButton_Clicked(object sender, EventArgs e)
+    private async void ImageButton_Clicked(object sender, EventArgs e)
     {
-        Shell.Current.GoToAsync("sinais");
+        await Shell.Current.GoToAsync("..");
+        await Shell.Current.GoToAsync("selec");
     }
 }
