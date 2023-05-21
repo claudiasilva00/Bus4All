@@ -11,9 +11,6 @@
     <RuntimeIdentifier>ios-arm64</RuntimeIdentifier>
     <PlatformTarget>arm64</PlatformTarget>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-android|AnyCPU'">
-    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
-  </PropertyGroup>
   <ItemGroup>
     <MauiXaml Update="Resources\Pages\Horarios.xaml">
       <SubType>Designer</SubType>
