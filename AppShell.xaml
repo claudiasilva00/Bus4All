@@ -24,7 +24,7 @@
     </Shell.Resources>
     <TabBar>
         <Tab Title="Favoritos" Icon="estrela">
-            <ShellContent
+            <ShellContent x:Name="fav"
                 Appearing="ShellContent_Appearing"
                 Title="Favoritos"
                 ContentTemplate="{DataTemplate local:MainPage}"
@@ -32,7 +32,7 @@
             />
         </Tab>
         <Tab Title="Bus4All" Icon="bus">
-            <ShellContent 
+            <ShellContent x:Name="home"
                 Appearing="ShellContent_Appearing"
                 Title="Bus4All"
                 ContentTemplate="{DataTemplate local:MainPage}"

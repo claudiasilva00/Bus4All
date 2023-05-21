@@ -14,6 +14,7 @@ public partial class AppShell : Shell
     }
 
     private void ShellContent_Appearing(object sender,EventArgs e) {
-        Navigation.PopToRootAsync();
+        home.ContentTemplate = new DataTemplate(() => new MainPage());
+        fav.ContentTemplate = new DataTemplate(() => new MainPage());
     }
 }

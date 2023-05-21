@@ -1,5 +1,6 @@
 ﻿using Bus4All;
 using Microsoft.Maui.Controls;
+using Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific;
 using Microsoft.Maui.Controls.Xaml;
 namespace Bus4All;
 
@@ -17,7 +18,7 @@ public partial class MainPage : ContentPage
     }
 
     private void Bus_Clicked(object sender,EventArgs e) {
-         Navigation.PushAsync(new Paragens());
+        Shell.Current.GoToAsync("bus");
     }
 
     private void Euro_Clicked(object sender,EventArgs e) {
@@ -30,10 +31,6 @@ public partial class MainPage : ContentPage
 
     private void Mappoint_Clicked(object sender,EventArgs e) {
         Shell.Current.GoToAsync("map");
-    }
-
-    private void Estrela_Clicked(object sender,EventArgs e) {
-
     }
 
     //private void OnCounterClicked(object sender, EventArgs e)
