@@ -15,7 +15,7 @@ public partial class Paragens : ContentPage
         {
             "UTAD REITORIA",
             "UTAD ENGENHARIAS",
-            "UTAD PEDAGOGICO",
+            "UTAD PEDAGÓGICO",
             "UTAD LIVRARIA",
             "PRAÇA GALIZA",
             "AV.UNIVERSIDADE",

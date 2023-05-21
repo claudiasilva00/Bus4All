@@ -43,7 +43,7 @@
         </StackLayout>
 
         <StackLayout Grid.Row="2" Grid.Column="2">
-            <Label HorizontalOptions="Start" Text="1 Lordelo- UTAD" TextColor="Black" FontSize="18" />
+            <Label HorizontalOptions="Start" Text="1 Lordelo- UTAD" TextColor="Black" FontSize="18" SemanticProperties.Description="Linha 1 partida em Lordelo ás 08:03h com Chegada em UTAD ás 08:07" />
             <Label HorizontalOptions="Start" Text="1092" TextColor="#BFBEBE" FontSize="18" />
         </StackLayout>
         
@@ -53,7 +53,7 @@
         </StackLayout>
 
         <StackLayout Grid.Row="3" Grid.Column="2">
-            <Image Source="bell.png" HeightRequest="20" HorizontalOptions="Start"> </Image>
+            <Image Source="bell.png" HeightRequest="20" HorizontalOptions="Start"/>
         </StackLayout>
 
         <StackLayout Grid.Row="2" Grid.Column="4">
@@ -66,7 +66,7 @@
         </StackLayout>
 
         <StackLayout Grid.Row="4" Grid.Column="2">
-            <Label HorizontalOptions="Start" Text="2 UTAD- Lordelo" TextColor="Black" FontSize="18" />
+            <Label HorizontalOptions="Start" Text="2 UTAD- Lordelo" TextColor="Black" FontSize="18" SemanticProperties.Description="Linha 2 partida em UTAD  ás 08:05h com Chegada em Lordelo ás 08:06" />
             <Label HorizontalOptions="Start" Text="1086" TextColor="#BFBEBE" FontSize="18" />
         </StackLayout>
 
@@ -75,20 +75,22 @@
             <Label HorizontalOptions="Start" Text="  08:05   08:06" TextColor="BLACK" FontSize="18" FontAttributes="Bold" />
         </StackLayout>
 
-        <StackLayout Grid.Row="5" Grid.Column="2">
-            <Image Source="bell.png" HeightRequest="20" HorizontalOptions="Start"></Image>
-        </StackLayout>
+        
+        
+        <!-- BOTOES-->
+        
+            <ImageButton Grid.Row="4" Grid.RowSpan="1" Grid.Column="1" Source="bell.png" HeightRequest="20" HorizontalOptions="Start" SemanticProperties.Description="Ligar alertas"/>
+        
 
-        <StackLayout Grid.Row="4" Grid.Column="4">
-            <Image Source="seta2.png" HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ImageButton Grid.Row="4" Grid.Column="4" Source="seta2.png" HorizontalOptions="CenterAndExpand" SemanticProperties.Description="Seguir Percurso Linha 2 do Autocarro no mapa" />
+       
         <!-- 3 -->
         <StackLayout Grid.Row="6" Grid.Column="1">
             <Image Source="bus.png" HorizontalOptions="Start" HeightRequest="50"/>
         </StackLayout>
 
         <StackLayout Grid.Row="6" Grid.Column="2">
-            <Label HorizontalOptions="Start" Text="3 IEFP - FLORES" TextColor="Black" FontSize="18" />
+            <Label HorizontalOptions="Start" Text="3 IEFP - FLORES" TextColor="Black" FontSize="18" SemanticProperties.Description="Linha 3 partida em IEFP  ás 08:09h com Chegada em Flores ás 09:06"  />
             <Label HorizontalOptions="Start" Text="1092" TextColor="#BFBEBE" FontSize="18" />
         </StackLayout>
 
@@ -96,22 +98,25 @@
             <Label HorizontalOptions="Start" Text="  AAA        ZZZ" TextColor="Black" FontSize="18" />
             <Label HorizontalOptions="Start" Text="  08:09   09:06" TextColor="BLACK" FontSize="18" FontAttributes="Bold" />
         </StackLayout>
+
+        <!-- BOTOES-->
+        <StackLayout Grid.Row="7" Grid.Column="1">
+            <ImageButton Source="bell.png" HeightRequest="20" HorizontalOptions="Start" SemanticProperties.Description="Ligar alertas"/>
+        </StackLayout>
+
         
-        <StackLayout Grid.Row="7" Grid.Column="2">
-            <Image Source="bell.png" HeightRequest="20" HorizontalOptions="Start"></Image>
-        </StackLayout>
+        <ImageButton Grid.Row="6" Grid.Column="4" Source="seta2.png" SemanticProperties.Description="Seguir Percurso Linha 3 do Autocarro no mapa"/>
+      
 
-        <StackLayout Grid.Row="6" Grid.Column="4">
-            <Image Source="seta2.png" HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-
+          
+          
         <!-- 4 -->
         <StackLayout Grid.Row="8" Grid.Column="1">
             <Image Source="bus.png" HorizontalOptions="Start" HeightRequest="50"/>
         </StackLayout>
 
         <StackLayout Grid.Row="8" Grid.Column="2">
-            <Label HorizontalOptions="Start" Text="4 UTAD- Montezelos" TextColor="Black" FontSize="18" />
+            <Label HorizontalOptions="Start" Text="4 UTAD- Montezelos" TextColor="Black" FontSize="18" SemanticProperties.Description="Linha 4 partida em UTAD  ás 10:05h com Chegada em Montezelos ás 11:06" />
             <Label HorizontalOptions="Start" Text="1092" TextColor="#BFBEBE" FontSize="18" />
         </StackLayout>
 
@@ -120,13 +125,12 @@
             <Label HorizontalOptions="Start" Text="  10:05   11:06" TextColor="BLACK" FontSize="18" FontAttributes="Bold" />
         </StackLayout>
 
-        <StackLayout Grid.Row="9" Grid.Column="2">
-            <Image Source="bell.png" HeightRequest="20" HorizontalOptions="Start"></Image>
-        </StackLayout>
+        <!-- BOTOES-->
 
-        <StackLayout Grid.Row="8" Grid.Column="4">
-            <Image Source="seta2.png" HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ImageButton  Grid.Row="7" Grid.RowSpan="1" Grid.Column="1" Source="bell.png" HeightRequest="20" HorizontalOptions="Start" SemanticProperties.Description="Ligar alertas"/>
+   
+        <ImageButton Grid.Row="9" Grid.Column="4" Source="seta2.png" SemanticProperties.Description="Seguir Percurso Linha 4 do Autocarro no mapa" />
+        
 
 
 

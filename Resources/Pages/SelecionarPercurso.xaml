@@ -25,10 +25,10 @@
 
 
 
-        
-          <Picker Grid.Row="1" HorizontalOptions="Center" x:Name="pembarquePicker" Title="PARAGEM DE EMBARQUE" TextColor="Black" />
-         <Picker Grid.Row="3" HorizontalOptions="Center" x:Name="pdesembarquePicker" Title="PARAGEM DE DESEMBARQUE" TextColor="Black" />
-        <Button Grid.Row="5" HorizontalOptions="CenterAndExpand" Text="CONFIRMAR" Clicked="Button_Clicked" BackgroundColor="Green"/>
+
+        <Picker Grid.Row="1" HorizontalOptions="Center" x:Name="pembarquePicker" Title="PARAGEM DE EMBARQUE" TextColor="Black" SemanticProperties.Description="Selecione aqui a sua paragem de embarque" />
+        <Picker Grid.Row="3" HorizontalOptions="Center" x:Name="pdesembarquePicker" Title="PARAGEM DE DESEMBARQUE" TextColor="Black" SemanticProperties.Description="Selecione aqui a sua paragem de desembarque"/>
+        <Button Grid.Row="5" HorizontalOptions="CenterAndExpand" Text="CONFIRMAR" Clicked="Button_Clicked" BackgroundColor="Green" SemanticProperties.Description="Confirmar Percurso"/>
 
 
 
