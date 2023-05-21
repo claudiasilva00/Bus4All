@@ -14,24 +14,24 @@ public partial class MainPage : ContentPage
         
     }
 
-    private void Seta_Clicked(object sender,EventArgs e) {
-        Shell.Current.GoToAsync("seta");
+    private async void Seta_Clicked(object sender,EventArgs e) {
+        await Shell.Current.GoToAsync("seta");
     }
 
-    private void Bus_Clicked(object sender,EventArgs e) {
-        Shell.Current.GoToAsync("bus");
+    private async void Bus_Clicked(object sender,EventArgs e) {
+        await Shell.Current.GoToAsync("bus");
     }
 
-    private void Euro_Clicked(object sender,EventArgs e) {
-        Shell.Current.GoToAsync("euro");
+    private async void Euro_Clicked(object sender,EventArgs e) {
+        await Shell.Current.GoToAsync("euro");
     }
 
-    private void Sinais_Clicked(object sender,EventArgs e) {
-        Shell.Current.GoToAsync("sinais");
+    private async void Sinais_Clicked(object sender,EventArgs e) {
+        await Shell.Current.GoToAsync("sinais");
     }
 
-    private void Mappoint_Clicked(object sender,EventArgs e) {
-        Shell.Current.GoToAsync("map");
+    private async void Mappoint_Clicked(object sender,EventArgs e) {
+        await Shell.Current.GoToAsync("map");
     }
 }
 
