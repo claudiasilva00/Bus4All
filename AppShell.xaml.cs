@@ -1,4 +1,6 @@
-﻿namespace Bus4All;
+﻿using Bus4All;
+
+namespace Bus4All;
 
 public partial class AppShell : Shell
 {
@@ -11,6 +13,7 @@ public partial class AppShell : Shell
         Routing.RegisterRoute("sinais",typeof(SelecionarPercurso));
         Routing.RegisterRoute("euro",typeof(Tarifas));
         Routing.RegisterRoute("map",typeof(Mapa));
+        Routing.RegisterRoute("config", typeof(Configuracoes));
     }
 
     private void ShellContent_Appearing(object sender,EventArgs e) {
