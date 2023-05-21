@@ -5,6 +5,7 @@ namespace Bus4All;
 public partial class SelecionarPercurso : ContentPage
 {
     private List<string> paragemList;
+
     public SelecionarPercurso()
 	{
 		InitializeComponent();
@@ -43,12 +44,27 @@ public partial class SelecionarPercurso : ContentPage
     }
 
 
-  private void Button_Clicked(object sender, EventArgs e)
-   {
+    private async void Button_Clicked(object sender, EventArgs e)
+    {
         string selectedPembarque = pembarquePicker.SelectedItem as string;
         string selectedPdesembarque = pdesembarquePicker.SelectedItem as string;
 
-            
-            DisplayAlert("PERCURSO SELECIONADO", $"Embarque: {selectedPembarque}\n\nDesembarque: {selectedPdesembarque}", "CONFIRMAR", "CANCELAR");
+        bool Bdisplay = true; 
+
+        var result = await Application.Current.MainPage.DisplayAlert("PERCURSO SELECIONADO", $"Embarque: {selectedPembarque}\n\nDesembarque: {selectedPdesembarque}", "CONFIRMAR", "CANCELAR");
+
+        if (result)
+        {
+            if (Bdisplay)
+                await Shell.Current.GoToAsync("map");
+            else
+                await Shell.Current.GoToAsync("sinais");
+        }
+
+
+       
     }
+
+
+
 }
