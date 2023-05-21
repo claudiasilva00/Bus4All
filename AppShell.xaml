@@ -23,7 +23,7 @@
         </ResourceDictionary>
     </Shell.Resources>
     <TabBar>
-        <Tab Title="Favoritos" Icon="estrela">
+        <Tab Title="Favoritos" Icon="estrela" >
             <ShellContent x:Name="fav"
                 Appearing="ShellContent_Appearing"
                 Title="Favoritos"
