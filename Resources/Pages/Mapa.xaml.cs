@@ -11,10 +11,10 @@ public partial class Mapa : ContentPage
 		DisplayAlert("Alerta","O seu Autocarro encontra-se a 2km de si","OK");
         await Vibrates(1000);
         await Vibrates(1000);
-        //// DisplayAlert("Alerta","O seu Autocarro encontra-se a 300 m de si","OK");
-        // Vibration.Default.Vibrate(100);
-        // Vibration.Default.Vibrate(100);
-        // Vibration.Default.Vibrate(100);
+        DisplayAlert("Alerta","O seu Autocarro encontra-se a 300 m de si","OK");
+        await Vibrates(500);
+        await Vibrates(500);
+        await Vibrates(500);
     }
 
     async private Task Vibrates(double x) {

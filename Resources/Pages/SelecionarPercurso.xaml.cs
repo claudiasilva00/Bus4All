@@ -49,22 +49,11 @@ public partial class SelecionarPercurso : ContentPage
         string selectedPembarque = pembarquePicker.SelectedItem as string;
         string selectedPdesembarque = pdesembarquePicker.SelectedItem as string;
 
-        bool Bdisplay = true; 
-
-        var result = await Application.Current.MainPage.DisplayAlert("PERCURSO SELECIONADO", $"Embarque: {selectedPembarque}\n\nDesembarque: {selectedPdesembarque}", "CONFIRMAR", "CANCELAR");
+        var result = await DisplayAlert("PERCURSO SELECIONADO", $"Embarque: {selectedPembarque}\n\nDesembarque: {selectedPdesembarque}", "CONFIRMAR", "CANCELAR");
 
         if (result)
         {
-            if (Bdisplay)
-                await Shell.Current.GoToAsync("map");
-            else
-                await Shell.Current.GoToAsync("sinais");
+            Shell.Current.GoToAsync("map");
         }
-
-
-       
     }
-
-
-
 }

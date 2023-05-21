@@ -39,6 +39,14 @@
                 ContentTemplate="{DataTemplate local:MainPage}"
                 Route="MainPage"
             />
-            </Tab>
+        </Tab>
+        <Tab Title="Perfil" Icon="perfil">
+            <ShellContent x:Name="perfil"
+                Appearing="ShellContent_Appearing"
+                Title="Perfil"
+                ContentTemplate="{DataTemplate local:MainPage}"
+                Route="MainPage"
+            />
+        </Tab>
     </TabBar>
 </Shell>
