@@ -84,13 +84,9 @@
                 <RowDefinition Height="20" />
                 <RowDefinition Height="20" />
                 <RowDefinition Height="20" />
-                
                 <RowDefinition Height="20" />
                 <RowDefinition Height="20" />
                 <RowDefinition Height="30" />
-               
-                
-
             </Grid.RowDefinitions>
 
             <Grid.ColumnDefinitions>
@@ -110,7 +106,7 @@
             <Label Grid.Row="5" Grid.Column="1" Text="4" />
             
 
-            <Label Grid.Row="2" Grid.Column="2" Text="xx,xx€" />
+            <Label x:Name="label" Grid.Row="2" Grid.Column="2" Text="xx,xx€" />
             <Label Grid.Row="3" Grid.Column="2" Text="xx,xx€" />
             <Label Grid.Row="4" Grid.Column="2" Text="xx,xx€" />
             <Label Grid.Row="5" Grid.Column="2" Text="xx,xx€" />
