@@ -25,7 +25,7 @@ public partial class Mapa : ContentPage
 
     async private Task Vibrates(double x) {
         Vibration.Default.Vibrate(x);
-        int delay =Convert.ToInt32( x + (x * 0.5));
+        int delay = Convert.ToInt32( x + (x * 0.5));
         await Task.Delay(delay);
     }
 }
