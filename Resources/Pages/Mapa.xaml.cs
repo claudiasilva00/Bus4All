@@ -7,15 +7,19 @@ public partial class Mapa : ContentPage
 		InitializeComponent();
 	}
 
-    private void ImageButton_Clicked(object sender,EventArgs e) {
+    private async void ImageButton_Clicked(object sender,EventArgs e) {
 		DisplayAlert("Alerta","O seu Autocarro encontra-se a 2km de si","OK");
-        Vibration.Default.Vibrate(1000);
-        Thread.Sleep(1500);
-        Vibration.Default.Vibrate(1000);
-        Thread.Sleep(1500);
+        await Vibrates(1000);
+        await Vibrates(1000);
         //// DisplayAlert("Alerta","O seu Autocarro encontra-se a 300 m de si","OK");
         // Vibration.Default.Vibrate(100);
         // Vibration.Default.Vibrate(100);
         // Vibration.Default.Vibrate(100);
+    }
+
+    async private Task Vibrates(double x) {
+        Vibration.Default.Vibrate(x);
+        int delay =Convert.ToInt32( x + (x * 0.5));
+        await Task.Delay(delay);
     }
 }
