@@ -14,38 +14,24 @@ public partial class MainPage : ContentPage
         
     }
 
-    async private void Seta_Clicked(object sender,EventArgs e) {
-        await Shell.Current.GoToAsync("seta");
+    private void Seta_Clicked(object sender,EventArgs e) {
+        Shell.Current.GoToAsync("seta");
     }
 
-    async private void Bus_Clicked(object sender,EventArgs e) {
-        await Shell.Current.GoToAsync("bus");
+    private void Bus_Clicked(object sender,EventArgs e) {
+        Shell.Current.GoToAsync("bus");
     }
 
-    async private void Euro_Clicked(object sender,EventArgs e) {
-        await Shell.Current.GoToAsync("euro");
+    private void Euro_Clicked(object sender,EventArgs e) {
+        Shell.Current.GoToAsync("euro");
     }
 
-    async private void Sinais_Clicked(object sender,EventArgs e) {
-        await Shell.Current.GoToAsync("sinais");
+    private void Sinais_Clicked(object sender,EventArgs e) {
+        Shell.Current.GoToAsync("sinais");
     }
 
-    async private void Mappoint_Clicked(object sender,EventArgs e) {
-        await Shell.Current.GoToAsync("map");
+    private void Mappoint_Clicked(object sender,EventArgs e) {
+        Shell.Current.GoToAsync("map");
     }
-
-    //private void OnCounterClicked(object sender, EventArgs e)
-    //{
-    //	count++;
-
-    //	if (count == 1)
-    //		CounterBtn.Text = $"Clicked {count} time";
-    //	else
-    //		CounterBtn.Text = $"Clicked {count} times";
-
-    //	Shell.Current.GoToAsync("about");
-
-    //	SemanticScreenReader.Announce(CounterBtn.Text);
-    //}
 }
 
