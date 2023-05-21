@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+            
+
              x:Class="Bus4All.SelecionarPercurso"
              Title="SelecionarPercurso"
              Shell.BackgroundColor="#AFC2CD"
@@ -19,15 +22,18 @@
                 <RowDefinition Height="50"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-            
-            
-            
-        <Entry Grid.Row="1" HorizontalOptions="Center" x:Name="pembarque" Placeholder="PARAGEM DE EMBARQUE " Text="{Binding MyTextt}" TextColor="Black" />
-        <Entry Grid.Row="3" HorizontalOptions="Center" x:Name="pdesembarque" Placeholder="PARAGEM DE DESEMBARQUE " Text="{Binding MyText}" TextColor="Black" />
-        <Button Grid.Row="5" HorizontalOptions="CenterAndExpand" Text="CONFIRMAR" Clicked="Button_Clicked"/>
+
+
+
+        
+          <Picker Grid.Row="1" HorizontalOptions="Center" x:Name="pembarquePicker" Title="PARAGEM DE EMBARQUE" TextColor="Black" />
+         <Picker Grid.Row="3" HorizontalOptions="Center" x:Name="pdesembarquePicker" Title="PARAGEM DE DESEMBARQUE" TextColor="Black" />
+        <Button Grid.Row="5" HorizontalOptions="CenterAndExpand" Text="CONFIRMAR" Clicked="Button_Clicked" BackgroundColor="Green"/>
+
+
 
     </Grid>
-
+    
 
 
 
