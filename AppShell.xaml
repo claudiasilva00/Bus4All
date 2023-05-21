@@ -4,10 +4,7 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Bus4All"
-    Shell.TabBarBackgroundColor="#AFC2CD"
-    Shell.TabBarUnselectedColor="Black"
-    Shell.PresentationMode="Animated"
-    >
+    Shell.PresentationMode="Animated">
     <Shell.Resources>
         <ResourceDictionary>
             <Style x:Key="BaseStyle" TargetType="Element">
