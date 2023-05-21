@@ -38,7 +38,15 @@
                 Title="Favoritos"
                 ContentTemplate="{DataTemplate local:MainPage}"
                 Route="MainPage"
-                 />
-         </Tab>
+            />
+        </Tab>
+        <Tab Title="Definições" Icon="definições">
+            <ShellContent x:Name="Definições"
+                Appearing="ShellContent_Appearing"
+                Title="Definições"
+                ContentTemplate="{DataTemplate local:MainPage}"
+                Route="MainPage"
+            />
+        </Tab>
     </TabBar>
 </Shell>
