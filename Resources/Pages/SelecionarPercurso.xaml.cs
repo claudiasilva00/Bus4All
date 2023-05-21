@@ -53,7 +53,8 @@ public partial class SelecionarPercurso : ContentPage
 
         if (result)
         {
-            Shell.Current.GoToAsync("map");
+            await Shell.Current.GoToAsync("..");
+            await Shell.Current.GoToAsync("map");
         }
     }
 }
