@@ -20,7 +20,7 @@
         </Grid.RowDefinitions>
         <StackLayout Grid.Column="1" Grid.Row="1"  >
             <ImageButton VerticalOptions="Start" Source="seta"  Clicked="Seta_Clicked" HeightRequest="160" SemanticProperties.Description="Linhas"/>
-            <Label  HorizontalOptions="Center" Text="Linhas" TextColor="Black" FontSize="20" SemanticProperties.HeadingLevel="None"/>
+            <Label  HorizontalOptions="Center" Text="Linhas" TextColor="Black" FontSize="20" />
         </StackLayout>
         <StackLayout Grid.Column="3" Grid.Row="1" >
             <ImageButton VerticalOptions="Start" Source="bus"  Clicked="Bus_Clicked" HeightRequest="160" SemanticProperties.Description="Paragens"/>
