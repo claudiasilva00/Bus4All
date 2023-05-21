@@ -38,7 +38,7 @@
                 Title="Favoritos"
                 ContentTemplate="{DataTemplate local:MainPage}"
                 Route="MainPage"
-            />
-            </Tab>
+                 />
+         </Tab>
     </TabBar>
 </Shell>

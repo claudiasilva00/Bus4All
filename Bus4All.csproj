@@ -64,6 +64,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Resources\Pages\Configuracoes.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Resources\Pages\Horarios.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
