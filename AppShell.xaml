@@ -13,7 +13,7 @@
                 <Setter Property="Shell.ForegroundColor" Value="Black" />
                 <Setter Property="Shell.TitleColor" Value="Black" />
                 <Setter Property="Shell.DisabledColor" Value="#B4FFFFFF" />
-                <Setter Property="Shell.UnselectedColor" Value="Green" />
+                <Setter Property="Shell.UnselectedColor" Value="#95FFFFFF" />
                 <Setter Property="Shell.TabBarBackgroundColor" Value="#4A7CE2" />
                 <Setter Property="Shell.TabBarForegroundColor" Value="Black" />
                 <Setter Property="Shell.TabBarUnselectedColor" Value="White" />
