@@ -6,7 +6,7 @@
              Shell.BackgroundColor="#AFC2CD"
              BackgroundColor="White">
     <Grid>
-        <ImageButton VerticalOptions="Start" Source="mapa.jpg" Clicked="ImageButton_Clicked"/>
+        <ImageButton VerticalOptions="Start" Source="mapa.jpg" Clicked="ImageButton_Clicked" SemanticProperties.Description=""/>
     </Grid>
 
 
