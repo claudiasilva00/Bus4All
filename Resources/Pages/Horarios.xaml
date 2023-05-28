@@ -131,7 +131,7 @@
 
         <!-- BOTOES-->
         <!-- BOTOES-->
-        <Image Grid.Row="8" Grid.RowSpan="2" Grid.Column="1" Source="bell.png" HeightRequest="20" HorizontalOptions="Center" que fa AutomationProperties.IsInAccessibleTree="False"/>
+        <Image Grid.Row="8" Grid.RowSpan="2" Grid.Column="1" Source="bell.png" HeightRequest="20" HorizontalOptions="Center" AutomationProperties.IsInAccessibleTree="False"/>
         <Button Grid.Row="8" Grid.RowSpan="2" Grid.Column="1" BackgroundColor="Transparent" HeightRequest="60" WidthRequest="60" SemanticProperties.Description="Ligar alertas para a linha 4"/>
         <Image Grid.Row="7" Grid.RowSpan="3" Grid.Column="4" Source="seta2.png"/>
         <Button Grid.Row="7" Grid.RowSpan="3" Grid.Column="4"  BackgroundColor="Transparent" HeightRequest="60" WidthRequest="60" SemanticProperties.Description="Selecione o seu percurso e siga a Linha 4 do Autocarro no mapa" Clicked="ImageButton_Clicked"/>
