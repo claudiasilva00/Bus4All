@@ -6,7 +6,7 @@
              BackgroundColor="White"
              >
     <Page.Behaviors>
-        <mct:StatusBarBehavior StatusBarColor="#AFC2CD"/>
+        <mct:StatusBarBehavior StatusBarColor="#4A7CE2"/>
     </Page.Behaviors>
     <Grid>
         <Grid.ColumnDefinitions>
