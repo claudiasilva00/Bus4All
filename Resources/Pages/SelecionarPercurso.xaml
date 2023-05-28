@@ -25,10 +25,5 @@
         <Button Grid.Row="5" HorizontalOptions="CenterAndExpand" Text="CONFIRMAR" Clicked="Button_Clicked" BackgroundColor="Green" SemanticProperties.Description="Confirmar Percurso"/>
 
 
-
     </Grid>
-    
-
-
-
 </ContentPage>
