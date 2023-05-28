@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Bus4All.Mapa"
              Title="Mapa"
-             Shell.BackgroundColor="#AFC2CD"
+             Shell.BackgroundColor="#4A7CE2"
              BackgroundColor="White">
     <Grid>
         <ImageButton VerticalOptions="Start" Source="mapa.jpg" Clicked="ImageButton_Clicked" SemanticProperties.Description="Mapa de Vila Real com o trajeto do autocarro"/>

@@ -4,7 +4,7 @@
              xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
              x:Class="Bus4All.SelecionarPercurso"
              Title="SelecionarPercurso"
-             Shell.BackgroundColor="#AFC2CD"
+             Shell.BackgroundColor="#4A7CE2"
              BackgroundColor="White">
     <Grid>
         <Grid.RowDefinitions>

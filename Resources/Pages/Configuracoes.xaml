@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Bus4All.Configuracoes"
              Title="Configurações"
-              Shell.BackgroundColor="#AFC2CD"
+              Shell.BackgroundColor="#4A7CE2"
              BackgroundColor="White">
     <Grid>
         <Grid.ColumnDefinitions>
@@ -47,14 +47,17 @@
         <BoxView Grid.Column="1" Grid.Row="6" Grid.ColumnSpan="4" Grid.RowSpan="2" Color="Black" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
         
         <!--ICON TUGA-->
-        <ImageButton Grid.Row="5" Grid.Column="3"  HeightRequest="40" Source="pt.png"  SemanticProperties.Description="Trocar idioma para Português" />
+        <Image Grid.Row="5" Grid.Column="3"  HeightRequest="40" Source="pt.png" AutomationProperties.IsInAccessibleTree="False"/>
+        <Button Grid.Row="5" Grid.Column="3" BackgroundColor="Transparent" HeightRequest="70" WidthRequest="70" SemanticProperties.Description="Trocar idioma para Português"/>
         <!--ICON INGLES-->
-        <ImageButton Grid.Row="5" Grid.Column="4" HeightRequest="40" Source="uk.png"  SemanticProperties.Description="Trocar idioma para Inglês" />
+        <Image Grid.Row="5" Grid.Column="4" HeightRequest="40" Source="uk.png" AutomationProperties.IsInAccessibleTree="False"/>
+        <Button Grid.Row="5" Grid.Column="4" BackgroundColor="Transparent" HeightRequest="70" WidthRequest="70" SemanticProperties.Description="Trocar idioma para Inglês"/>
         <!--Filtros-->
-        <ImageButton Grid.Row="3" Grid.Column="4" Grid.RowSpan="1" HeightRequest="40" Source="seta2.png"  />
+        <Image Grid.Row="3" Grid.Column="4" Grid.RowSpan="1" HeightRequest="40" Source="seta2.png" AutomationProperties.IsInAccessibleTree="False"/>
+        <Button Grid.Row="3" Grid.Column="4" BackgroundColor="Transparent" HeightRequest="70" WidthRequest="70" SemanticProperties.Description="Trocar Filtros de cor"/>
         <!--Haptic-->
-        <Switch Grid.Row="1" Grid.Column="4" Grid.RowSpan="3" x:Name="switchButton" Toggled="Switch_Toggled" ThumbColor="#0CC05A" OnColor="DarkGray" WidthRequest="80" HeightRequest="40" IsToggled="True" SemanticProperties.Description="Botão de ativação e desativação de Haptic Feedback" />
+        <Switch Grid.Row="1" Grid.Column="4" Grid.RowSpan="3" x:Name="switchButton" Toggled="Switch_Toggled" ThumbColor="#0CC05A" OnColor="DarkGray" WidthRequest="80" HeightRequest="50" IsToggled="True" SemanticProperties.Description="Ativação e desativação de Haptic Feedback" />
         <!--Voice-->
-        <Switch Grid.Row="0" Grid.Column="4" Grid.RowSpan="2" x:Name="switchButtonn" Toggled="switchButtonn_Toggled" ThumbColor="#0CC05A" OnColor="DarkGray" WidthRequest="80" HeightRequest="40"  IsToggled="True" SemanticProperties.Description="Botão de ativação e desativação dos Voice Announcements"/>
+        <Switch Grid.Row="0" Grid.Column="4" Grid.RowSpan="2" x:Name="switchButtonn" Toggled="switchButtonn_Toggled" ThumbColor="#0CC05A" OnColor="DarkGray" WidthRequest="80" HeightRequest="50"  IsToggled="True" SemanticProperties.Description="Ativação e desativação dos Voice Announcements"/>
     </Grid>
 </ContentPage>
