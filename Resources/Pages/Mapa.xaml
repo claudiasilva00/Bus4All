@@ -5,6 +5,10 @@
              Title="Mapa"
              Shell.BackgroundColor="#4A7CE2"
              BackgroundColor="White">
+    <Shell.TitleView>
+        <Label Text="Mapa" FontSize="35" FontAttributes="Bold" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="White"/>
+    </Shell.TitleView>
+
     <Grid>
         <ImageButton VerticalOptions="Start" Source="mapa.jpg" Clicked="ImageButton_Clicked" SemanticProperties.Description="Mapa de Vila Real com o trajeto do autocarro"/>
     </Grid>

@@ -5,6 +5,10 @@
              Title="Horários"
              Shell.BackgroundColor="#4A7CE2"
              BackgroundColor="White">
+    <Shell.TitleView>
+        <Label Text="Horários" FontSize="35" FontAttributes="Bold" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="White"/>
+    </Shell.TitleView>
+
 
     <Grid>
         <Grid.ColumnDefinitions>
@@ -44,21 +48,23 @@
 
         <StackLayout Grid.Row="2" Grid.Column="2">
             <Label HorizontalOptions="Start" Text="1 Lordelo- UTAD" TextColor="Black" FontSize="18" SemanticProperties.Description="Linha 1 partida em Lordelo ás 08:03h com Chegada em UTAD ás 08:07"  />
-            <Label HorizontalOptions="Start" Text="1092" TextColor="#BFBEBE" FontSize="18" />
+            <Label HorizontalOptions="Start" Text="1092" TextColor="#5C5C5C" FontSize="18" SemanticProperties.Description="Autocarro número 1092"/>
         </StackLayout>
         
         <StackLayout Grid.Row="2" Grid.Column="3">
-            <Label HorizontalOptions="Start" Text="  AAA        ZZZ" TextColor="Black" FontSize="18" />
-            <Label HorizontalOptions="Start" Text="  08:03   08:07" TextColor="BLACK" FontSize="18" FontAttributes="Bold" />
+            <Label HorizontalOptions="Start" Text="  AAA        ZZZ" TextColor="Black" FontSize="18" AutomationProperties.IsInAccessibleTree="False"/>
+            <Label HorizontalOptions="Start" Text="  08:03   08:07" TextColor="BLACK" FontSize="18" FontAttributes="Bold" AutomationProperties.IsInAccessibleTree="False" />
         </StackLayout>
 
         <!-- BOTOES-->
         <!-- BOTOES-->
-        <ImageButton Grid.Row="2" Grid.Column="1" Grid.RowSpan="2" Source="bell.png" HeightRequest="20" HorizontalOptions="Start" SemanticProperties.Description="Ligar alertas"/>
-        <ImageButton  Grid.Row="2" Grid.Column="4" Source="seta2.png" HorizontalOptions="CenterAndExpand" SemanticProperties.Description="Selecione o seu percurso e siga a Linha 1 do Autocarro no mapa" Clicked="ImageButton_Clicked"/>
-       
-        
-        
+        <Image Grid.Row="2" Grid.Column="1" Grid.RowSpan="2" Source="bell.png" HeightRequest="20"  HorizontalOptions="Center" AutomationProperties.IsInAccessibleTree="False"/>
+        <Button Grid.Row="2" Grid.Column="1" Grid.RowSpan="2" BackgroundColor="Transparent" HeightRequest="160" WidthRequest="60" SemanticProperties.Description="Ligar alertas para a linha 1"/>
+        <Image  Grid.Row="2" Grid.Column="4" Source="seta2.png" HorizontalOptions="CenterAndExpand" />
+        <Button Grid.Row="2" Grid.Column="4" BackgroundColor="Transparent" HeightRequest="60" WidthRequest="60" SemanticProperties.Description="Selecione o seu percurso e siga a Linha 1 do Autocarro no mapa" Clicked="ImageButton_Clicked"/>
+
+
+
 
         <!-- 2 -->
         <StackLayout Grid.Row="4" Grid.Column="1">
@@ -67,20 +73,23 @@
 
         <StackLayout Grid.Row="4" Grid.Column="2">
             <Label HorizontalOptions="Start" Text="2 UTAD- Lordelo" TextColor="Black" FontSize="18" SemanticProperties.Description="Linha 2 partida em UTAD  ás 08:05h com Chegada em Lordelo ás 08:06" />
-            <Label HorizontalOptions="Start" Text="1086" TextColor="#BFBEBE" FontSize="18" />
+            <Label HorizontalOptions="Start" Text="1086" TextColor="#5C5C5C" FontSize="18" SemanticProperties.Description="Autocarro número 1086"/>
         </StackLayout>
 
         <StackLayout Grid.Row="4" Grid.Column="3">
-            <Label HorizontalOptions="Start" Text="  AAA        ZZZ" TextColor="Black" FontSize="18" />
-            <Label HorizontalOptions="Start" Text="  08:05   08:06" TextColor="BLACK" FontSize="18" FontAttributes="Bold" />
+            <Label HorizontalOptions="Start" Text="  AAA        ZZZ" TextColor="Black" FontSize="18" AutomationProperties.IsInAccessibleTree="False"  />
+            <Label HorizontalOptions="Start" Text="  08:05   08:06" TextColor="BLACK" FontSize="18" FontAttributes="Bold" AutomationProperties.IsInAccessibleTree="False" />
         </StackLayout>
 
         <!-- BOTOES-->
         <!-- BOTOES-->
-        <ImageButton Grid.Row="4" Grid.RowSpan="2" Grid.Column="1" Source="bell.png" HeightRequest="20" HorizontalOptions="Start" SemanticProperties.Description="Ligar alertas"/>
-        <ImageButton Grid.Row="4" Grid.Column="4" Source="seta2.png" HorizontalOptions="CenterAndExpand" SemanticProperties.Description="Selecione o seu percurso e siga a Linha 1 do Autocarro no mapa" Clicked="ImageButton_Clicked" />
-       
-           
+        <Image Grid.Row="4" Grid.RowSpan="2" Grid.Column="1" Source="bell.png" HeightRequest="20" HorizontalOptions="Center" AutomationProperties.IsInAccessibleTree="False"/>
+        <Button Grid.Row="4" Grid.RowSpan="2" Grid.Column="1" BackgroundColor="Transparent" HeightRequest="160" WidthRequest="60" SemanticProperties.Description="Ligar alertas para a linha 2"/>
+        <Image Grid.Row="4" Grid.Column="4" Source="seta2.png" HorizontalOptions="CenterAndExpand"/>
+        <Button Grid.Row="4" Grid.Column="4" BackgroundColor="Transparent" HeightRequest="60" WidthRequest="60" SemanticProperties.Description="Selecione o seu percurso e siga a Linha 2 do Autocarro no mapa" Clicked="ImageButton_Clicked"/>
+
+
+
         <!-- 3 -->
         <StackLayout Grid.Row="6" Grid.Column="1">
             <Image Source="bus.png" HorizontalOptions="Start" HeightRequest="50"/>
@@ -88,22 +97,23 @@
 
         <StackLayout Grid.Row="6" Grid.Column="2">
             <Label HorizontalOptions="Start" Text="3 IEFP - FLORES" TextColor="Black" FontSize="18" SemanticProperties.Description="Linha 3 partida em IEFP  ás 08:09h com Chegada em Flores ás 09:06"  />
-            <Label HorizontalOptions="Start" Text="1092" TextColor="#BFBEBE" FontSize="18" />
+            <Label HorizontalOptions="Start" Text="1093" TextColor="#5C5C5C" FontSize="18" SemanticProperties.Description="Autocarro número 1093"/>
         </StackLayout>
 
         <StackLayout Grid.Row="6" Grid.Column="3">
-            <Label HorizontalOptions="Start" Text="  AAA        ZZZ" TextColor="Black" FontSize="18" />
-            <Label HorizontalOptions="Start" Text="  08:09   09:06" TextColor="BLACK" FontSize="18" FontAttributes="Bold" />
+            <Label HorizontalOptions="Start" Text="  AAA        ZZZ" TextColor="Black" FontSize="18" AutomationProperties.IsInAccessibleTree="False" />
+            <Label HorizontalOptions="Start" Text="  08:09   09:06" TextColor="BLACK" FontSize="18" FontAttributes="Bold" AutomationProperties.IsInAccessibleTree="False" />
         </StackLayout>
 
         <!-- BOTOES-->
         <!-- BOTOES-->
-        <ImageButton Grid.Row="6" Grid.Column="1" Grid.RowSpan="2" Source="bell.png" HeightRequest="20" HorizontalOptions="Start" SemanticProperties.Description="Ligar alertas"/>
-        <ImageButton Grid.Row="6" Grid.Column="4" Source="seta2.png" SemanticProperties.Description="Selecione o seu percurso e siga a Linha 3 do Autocarro no mapa" Clicked="ImageButton_Clicked"/>
-      
+        <Image Grid.Row="6" Grid.Column="1" Grid.RowSpan="2" Source="bell.png" HeightRequest="20" HorizontalOptions="Center"  AutomationProperties.IsInAccessibleTree="False" />
+        <Button Grid.Row="6" Grid.Column="1" Grid.RowSpan="2" BackgroundColor="Transparent" HeightRequest="60" WidthRequest="60" SemanticProperties.Description="Ligar alertas para a linha 3"/>
+        <Image Grid.Row="6" Grid.Column="4" Source="seta2.png"/>
+        <Button Grid.Row="6" Grid.Column="4" BackgroundColor="Transparent" HeightRequest="60" WidthRequest="60" SemanticProperties.Description="Selecione o seu percurso e siga a Linha 3 do Autocarro no mapa" Clicked="ImageButton_Clicked"/>
 
-          
-          
+
+
         <!-- 4 -->
         <StackLayout Grid.Row="8" Grid.Column="1">
             <Image Source="bus.png" HorizontalOptions="Start" HeightRequest="50"/>
@@ -111,19 +121,21 @@
 
         <StackLayout Grid.Row="8" Grid.Column="2">
             <Label HorizontalOptions="Start" Text="4 UTAD- Montezelos" TextColor="Black" FontSize="18" SemanticProperties.Description="Linha 4 partida em UTAD  ás 10:05h com Chegada em Montezelos ás 11:06" />
-            <Label HorizontalOptions="Start" Text="1092" TextColor="#BFBEBE" FontSize="18" />
+            <Label HorizontalOptions="Start" Text="1094" TextColor="#5C5C5C" FontSize="18" SemanticProperties.Description="Autocarro número 1094" />
         </StackLayout>
 
         <StackLayout Grid.Row="8" Grid.Column="3">
-            <Label HorizontalOptions="Start" Text="  AAA        ZZZ" TextColor="Black" FontSize="18" />
-            <Label HorizontalOptions="Start" Text="  10:05   11:06" TextColor="BLACK" FontSize="18" FontAttributes="Bold" />
+            <Label HorizontalOptions="Start" Text="  AAA        ZZZ" TextColor="Black" FontSize="18" AutomationProperties.IsInAccessibleTree="False"/>
+            <Label HorizontalOptions="Start" Text="  10:05   11:06" TextColor="BLACK" FontSize="18" FontAttributes="Bold" AutomationProperties.IsInAccessibleTree="False" />
         </StackLayout>
 
         <!-- BOTOES-->
         <!-- BOTOES-->
-        <ImageButton  Grid.Row="8" Grid.RowSpan="2" Grid.Column="1" Source="bell.png" HeightRequest="20" HorizontalOptions="Start" SemanticProperties.Description="Ligar alertas"/>
-        <ImageButton Grid.Row="7" Grid.RowSpan="3" Grid.Column="4" Source="seta2.png" SemanticProperties.Description="Selecione o seu percurso e siga a Linha 4 do Autocarro no mapa" Clicked="ImageButton_Clicked" />
-        
+        <Image Grid.Row="8" Grid.RowSpan="2" Grid.Column="1" Source="bell.png" HeightRequest="20" HorizontalOptions="Center" AutomationProperties.IsInAccessibleTree="False"/>
+        <Button Grid.Row="8" Grid.RowSpan="2" Grid.Column="1" BackgroundColor="Transparent" HeightRequest="60" WidthRequest="60" SemanticProperties.Description="Ligar alertas para a linha 4"/>
+        <Image Grid.Row="7" Grid.RowSpan="3" Grid.Column="4" Source="seta2.png"/>
+        <Button Grid.Row="7" Grid.RowSpan="3" Grid.Column="4"  BackgroundColor="Transparent" HeightRequest="60" WidthRequest="60" SemanticProperties.Description="Selecione o seu percurso e siga a Linha 4 do Autocarro no mapa" Clicked="ImageButton_Clicked"/>
+
 
 
 
