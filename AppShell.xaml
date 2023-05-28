@@ -9,15 +9,16 @@
     <Shell.Resources>
         <ResourceDictionary>
             <Style x:Key="BaseStyle" TargetType="Element">
-                <Setter Property="Shell.BackgroundColor" Value="#AFC2CD" />
-                <Setter Property="Shell.ForegroundColor" Value="Black" />
-                <Setter Property="Shell.TitleColor" Value="Black" />
+                <Setter Property="Shell.BackgroundColor" Value="#4A7CE2" />
+                <Setter Property="Shell.ForegroundColor" Value="White" />
+                <Setter Property="Shell.TitleColor" Value="White" />
                 <Setter Property="Shell.DisabledColor" Value="#B4FFFFFF" />
                 <Setter Property="Shell.UnselectedColor" Value="#95FFFFFF" />
-                <Setter Property="Shell.TabBarBackgroundColor" Value="#AFC2CD" />
+                <Setter Property="Shell.TabBarBackgroundColor" Value="#4A7CE2" />
                 <Setter Property="Shell.TabBarForegroundColor" Value="Black" />
                 <Setter Property="Shell.TabBarUnselectedColor" Value="White" />
                 <Setter Property="Shell.TabBarTitleColor" Value="Black" />
+                
             </Style>
             <Style TargetType="ShellItem" BasedOn="{StaticResource BaseStyle}" />
             <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
@@ -32,7 +33,7 @@
                 Route="MainPage"
             />
         </Tab>
-        <Tab Title="Favoritos" Icon="estrela" >
+        <Tab Title="Favoritos" Icon="estrela">
                 <ShellContent x:Name="fav"
                 Appearing="set_fav"
                 Title="Favoritos"

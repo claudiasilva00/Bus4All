@@ -4,8 +4,12 @@
              xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
              x:Class="Bus4All.Selecionarfav"
              Title="Selecionar Favorito"
-             Shell.BackgroundColor="#AFC2CD"
+             Shell.BackgroundColor="#4A7CE2"
              BackgroundColor="White">
+    <Shell.TitleView>
+        <Label Text="Selecionar Favorito" FontSize="35" FontAttributes="Bold" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" TextColor="White"/>
+    </Shell.TitleView>
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="100"/>
@@ -27,8 +31,4 @@
 
 
     </Grid>
-    
-
-
-
-</ContentPage>
+ </ContentPage>

@@ -12,4 +12,12 @@ public partial class Horarios : ContentPage
         await Shell.Current.GoToAsync("..");
         await Shell.Current.GoToAsync("selec");
     }
+
+    private async void Button_Clicked(object sender, EventArgs e)
+    {
+
+            await Shell.Current.GoToAsync("..");
+            await Shell.Current.GoToAsync("map");
+
+    }
 }
